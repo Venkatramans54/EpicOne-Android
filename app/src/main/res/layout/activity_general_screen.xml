@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.a3imedia.ted.GeneralScreen">
+    <android.support.v7.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:cardUseCompatPadding="true">
+        <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/but_bg"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Contact us"
+        android:textSize="18sp"
+        android:onClick="countactUs"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:cardUseCompatPadding="true">
+    <TextView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/but_bg"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Google Map"
+        android:textSize="18sp"
+        android:onClick="googleMap"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:cardUseCompatPadding="true">
+    <TextView
+        android:id="@+id/Portfolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but_bg"
+        android:padding="10dp"
+        android:text="Portfolio"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:onClick="porfolio"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:cardUseCompatPadding="true">
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/but_bg"
+            android:gravity="center"
+            android:onClick="aboutus"
+            android:padding="10dp"
+            android:text="About Us"
+            android:textSize="18sp" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:cardUseCompatPadding="true">
+        <TextView
+            android:id="@+id/career"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/but_bg"
+            android:gravity="center"
+            android:onClick="careerJob"
+            android:padding="10dp"
+            android:text="Careers job"
+            android:textSize="18sp" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

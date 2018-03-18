@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.a3imedia.ted.AboutCompanyScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/epicone_icon" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageview"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageview"
+                android:gravity="left"
+                android:lineSpacingExtra="5dp"
+                android:padding="2dp"
+                android:text="EpicOne Media is actually several companies in one. EpicOne is an independent creative visionary company. We work with you to create and promote your businesses, brands, products and services.
+        We provide a vast array of media marketing services ranging from graphics, printing and advertising to web design, animation, video production and more.
+
+        EpicOne Media can help you get the image you really want and the exposure you’ll
+    always need. Come and see why our brand of media marketing is changing the way the world
+    does business.
+    We are creative’s, strategists, and provocateurs that deliver growth for business through
+    innovation, design, and activation. Through insight, powerful creative and experienced
+    leadership we tell our global clients’ stories. 
+    “The Creators” that&#39;s what we call ourselves, sort of like a team. &#39;World&#39;s Creative
+    Masterminds&#39; type thing. We design graphic, we create and shoot video, we capture and edit
+    image, we record and play audio, and finally we develop application.
+    The One &amp; the Epic what can we do?
+
+    ● We Brand
+    ● We Market
+    ● We Advertise.
+
+    How Our Tools Work for You
+    The business world has evolved and the need for positive exposure is essential. From
+    your business card, to your website, every customer is making crucial decisions about your
+    business before ever making a phone call.
+    Our consulting services, branding, websites, magazines and events work in harmony to
+    ensure that you look your best, and are exposed to the customers you really want.
+    Platforms:
+
+    The world spent an estimate of $529.43 billion on advertising; 40.4% on TV, 33.3% on
+    digital, 9% on newspapers, 6.9% on magazines, 5.8% on outdoor and 4.3% on radio. Choose
+    wisely, EpicOne increase your growth.
+
+    Route to success:
+    ● YOU, Approach. Discuss. Approve.
+    ● WE, Research. Estimate. Meet.
+    ● WE, Plan. Organize. Execute.
+    ● YOU, Grow. Expand. Conquer.
+    " />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

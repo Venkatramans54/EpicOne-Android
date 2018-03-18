@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.a3imedia.ted.ContactusScreen">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Contact Us"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_below="@id/heading"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="5dp"
+        android:padding="20dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/heading"
+            android:layout_centerHorizontal="true"
+
+            android:gravity="center"
+            android:lineSpacingExtra="5sp"
+            android:text="1057, Avinashi Road,
+5th floor, Jaya Enclave,
+Coimbatore - 641 018,
+Tamil Nadu,
+India, "
+            android:textSize="18sp" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
